@@ -1,16 +1,16 @@
-package com.quill.multiplewidget.ui;
+package com.quill.mw.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.quill.multiplewidget.R;
+import com.quill.mw.R;
+import com.quill.mw.widget.slide.BaseActivity;
 
-public class SlideMenuActivity extends AppCompatActivity {
+public class QuickIndexActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_slide_menu);
-
+        setContentView(R.layout.activity_quick_index);
     }
 }

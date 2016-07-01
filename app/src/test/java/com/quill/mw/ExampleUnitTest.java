@@ -1,4 +1,4 @@
-package com.quill.multiplewidget;
+package com.quill.mw;
 
 import org.junit.Test;
 

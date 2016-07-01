@@ -1,4 +1,4 @@
-package com.quill.multiplewidget;
+package com.quill.mw;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.quill.multiplewidget;
+package com.quill.mw;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 
-import com.quill.multiplewidget.ui.SlideMenuActivity;
+import com.quill.mw.ui.QuickIndexActivity;
+import com.quill.mw.ui.SlideMenuActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void getData() {
         classes = new ArrayList<>();
         classes.add(SlideMenuActivity.class);//添加Activity
-
+        classes.add(QuickIndexActivity.class);
         activities = new ArrayList<>();
         for (Class<?> clazz: classes) {
             activities.add(clazz+"");

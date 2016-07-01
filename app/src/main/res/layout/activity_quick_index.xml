@@ -3,11 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.quill.mw.MainActivity">
-   <ListView
-       android:id="@+id/main_list"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
-
-   </ListView>
+    tools:context="com.quill.mw.ui.QuickIndexActivity">
+    <com.quill.mw.widget.quickindex.QuickIndexBar
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray"/>
 </RelativeLayout>
